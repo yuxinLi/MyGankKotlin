@@ -55,7 +55,6 @@ ext {
             constraintLayout        : 'com.android.support.constraint:constraint-layout:1.0.2',
             junit                   : "junit:junit:$junitVersion",
 
-            kotlinStdlib            : "org.jetbrains.kotlin:kotlin-stdlib:$kotlin_version",
             kotlinStdlibJre         : "org.jetbrains.kotlin:kotlin-stdlib-jre7:$kotlin_version",
             kotlinReflect           : "org.jetbrains.kotlin:kotlin-reflect:$kotlin_version",
 

@@ -1,6 +1,6 @@
 package com.example.mygankkotlin.di.component
 
-import com.example.mygankkotlin.MainActivity
+import com.example.mygankkotlin.ui.activity.MainActivity
 import com.example.mygankkotlin.mvp.contract.RandomContract
 import dagger.Module
 import dagger.Provides

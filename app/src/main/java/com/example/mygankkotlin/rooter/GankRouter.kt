@@ -9,7 +9,7 @@ import android.net.Uri
  * 作    者：liyx@13322.com
  * 时    间：2017/7/18
  */
-object GankRooter {
+object GankRouter {
 
     fun router(context: Context , uri: String){
         val intent = Intent()

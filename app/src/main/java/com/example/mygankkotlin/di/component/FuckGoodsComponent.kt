@@ -1,6 +1,7 @@
 package com.example.mygankkotlin.di.component
 
 import com.example.mygankkotlin.mvp.contract.FuckGoodsContract
+import com.example.mygankkotlin.ui.fragment.AndroidFragment
 import dagger.Module
 import dagger.Provides
 import dagger.Subcomponent
@@ -13,7 +14,7 @@ import dagger.Subcomponent
 @Subcomponent(modules = arrayOf(FuckGoodsModule::class))
 interface FuckGoodsComponent{
 
-//    fun inject(fragment: AndroidFragment)
+    fun inject(fragment: AndroidFragment)
 
 }
 
