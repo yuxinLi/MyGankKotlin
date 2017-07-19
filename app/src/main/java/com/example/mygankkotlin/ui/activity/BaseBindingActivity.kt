@@ -20,6 +20,8 @@ abstract class BaseBindingActivity<B: ViewDataBinding>: AppCompatActivity() {
         super.onCreate(savedInstanceState)
 
         mBinding = createDataBinding(savedInstanceState)
+
+        initView()
     }
 
     abstract fun initView()
