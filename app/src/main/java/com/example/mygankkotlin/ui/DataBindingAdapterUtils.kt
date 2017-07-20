@@ -11,8 +11,8 @@ import com.bumptech.glide.Glide
  */
 
 @BindingAdapter("load_image")
-fun loadImage(imageView: ImageView, url: String) =
-        Glide.with(imageView.context).load(url)
+fun loadImage(imageView: ImageView, url: String?) =
+        Glide.with(imageView.context).load(url?:"")
                 .crossFade()
                 .into(imageView)
 
